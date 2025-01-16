@@ -76,24 +76,29 @@ const config = {
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
 			navbar: {
-				title: "My Site",
+				title: "Template Manual",
 				logo: {
 					alt: "My Site Logo",
-					src: "img/logo.svg",
+					src: "img/esl.png",
 				},
 				items: [
-					{
-						type: "docSidebar",
-						sidebarId: "tutorialSidebar",
-						position: "left",
-						label: "Tutorial",
-					},
-					{ to: "/blog", label: "Blog", position: "left" },
-					{
-						href: "https://github.com/facebook/docusaurus",
-						label: "GitHub",
-						position: "right",
-					},
+					// {
+					// 	type: "docSidebar",
+					// 	sidebarId: "tutorialSidebar",
+					// 	position: "left",
+					// 	label: "Tutorial",
+					// },
+					// { to: "/docs/", label: "Blog", position: "left" },
+					// {
+					// 	href: "https://github.com/facebook/docusaurus",
+					// 	label: "GitHub",
+					// 	position: "right",
+					// },
+					{ to: "/docs/outline", label: "개요", position: "left" },
+					{ to: "/docs/layoutDesigner", label: "LD사용법", position: "left" },
+					{ to: "/docs/templateGuide", label: "작업방법", position: "left" },
+					{ to: "/docs/coworkGuide", label: "협업", position: "left" },
+					{ to: "/docs/etc", label: "기타", position: "left" },
 				],
 			},
 			footer: {
