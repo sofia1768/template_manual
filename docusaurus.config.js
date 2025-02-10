@@ -80,7 +80,7 @@ const config = {
 				title: "Template Manual",
 				logo: {
 					alt: "My Site Logo",
-					src: "img/esl.png",
+					src: "img/manual_image.png",
 				},
 				items: [
 					// {
