@@ -99,7 +99,6 @@ const config = {
 					{ to: "/docs/layoutDesigner", label: "LD사용법", position: "left" },
 					{ to: "/docs/templateGuide", label: "작업방법", position: "left" },
 					{ to: "/docs/coworkGuide", label: "협업", position: "left" },
-					{ to: "/docs/etc", label: "기타", position: "left" },
 				],
 			},
 			footer: {
